@@ -26,7 +26,7 @@ export default function CheckoutPage() {
     // In production, you will await an Axios call to FastAPI to generate an order_id here.
     setTimeout(() => {
       const options = {
-        key: "rzp_test_YourKeyIdHere", // Replace with your actual Test/Live key
+        key: "rzp_test_SUFiXryKUgGzZC", // Replace with your actual Test/Live key
         amount: bookingDetails.amount * 100, // Razorpay takes paise (multiply by 100)
         currency: "INR",
         name: "SkillGrid India",
